@@ -56,57 +56,57 @@ public class OfficeUI extends JPanel {
     
     public OfficeUI(){
         try {
-            office = ImageIO.read(new File("freddyfivebear\\src\\images\\defaultoffice.png"));
+            office = ImageIO.read(new File("src\\images\\defaultoffice.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            bonnieimg = ImageIO.read(new File("freddyfivebear\\src\\images\\bonnieirl.png"));
+            bonnieimg = ImageIO.read(new File("src\\images\\bonnieirl.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            chicaimg = ImageIO.read(new File("freddyfivebear\\src\\images\\chicairl.png"));
+            chicaimg = ImageIO.read(new File("src\\images\\chicairl.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            leftdoor = ImageIO.read(new File("freddyfivebear\\src\\images\\leftdoor.png"));
+            leftdoor = ImageIO.read(new File("src\\images\\leftdoor.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            rightdoor = ImageIO.read(new File("freddyfivebear\\src\\images\\rightdoor.png"));
+            rightdoor = ImageIO.read(new File("src\\images\\rightdoor.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            leftempty = ImageIO.read(new File("freddyfivebear\\src\\images\\leftempty.png"));
+            leftempty = ImageIO.read(new File("src\\images\\leftempty.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            rightempty = ImageIO.read(new File("freddyfivebear\\src\\images\\rightempty.png"));
+            rightempty = ImageIO.read(new File("src\\images\\rightempty.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            bonniescare = ImageIO.read(new File("freddyfivebear\\src\\images\\bonniescare.png"));
+            bonniescare = ImageIO.read(new File("src\\images\\bonniescare.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            chicascare = ImageIO.read(new File("freddyfivebear\\src\\images\\chicascare.png"));
+            chicascare = ImageIO.read(new File("src\\images\\chicascare.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            employment = ImageIO.read(new File("freddyfivebear\\src\\images\\employment.png"));
+            employment = ImageIO.read(new File("src\\images\\employment.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            winscreen = ImageIO.read(new File("freddyfivebear\\src\\images\\winscreen.png"));
+            winscreen = ImageIO.read(new File("src\\images\\winscreen.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -114,10 +114,10 @@ public class OfficeUI extends JPanel {
         this.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 50));
         this.setLayout(new GridLayout(4,4));
         
-        bat1 = new ImageIcon(new ImageIcon("freddyfivebear\\src\\images\\bat1.png").getImage().getScaledInstance(40, 30, Image.SCALE_SMOOTH));
-        bat2 = new ImageIcon(new ImageIcon("freddyfivebear\\src\\images\\bat2.png").getImage().getScaledInstance(40, 30, Image.SCALE_SMOOTH));
-        bat3 = new ImageIcon(new ImageIcon("freddyfivebear\\src\\images\\bat3.png").getImage().getScaledInstance(40, 30, Image.SCALE_SMOOTH));
-        bat4 = new ImageIcon(new ImageIcon("freddyfivebear\\src\\images\\bat4.png").getImage().getScaledInstance(40, 30, Image.SCALE_SMOOTH));
+        bat1 = new ImageIcon(new ImageIcon("src\\images\\bat1.png").getImage().getScaledInstance(40, 30, Image.SCALE_SMOOTH));
+        bat2 = new ImageIcon(new ImageIcon("src\\images\\bat2.png").getImage().getScaledInstance(40, 30, Image.SCALE_SMOOTH));
+        bat3 = new ImageIcon(new ImageIcon("src\\images\\bat3.png").getImage().getScaledInstance(40, 30, Image.SCALE_SMOOTH));
+        bat4 = new ImageIcon(new ImageIcon("src\\images\\bat4.png").getImage().getScaledInstance(40, 30, Image.SCALE_SMOOTH));
 
         for (int i = 0; i < 20; i++) {
             if (i == 4) {
